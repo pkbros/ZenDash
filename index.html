@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZenDash</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/timer.css">
+
 </head>
 <body>
+    <div id="main-logo">
+        <h1>ZenDash</h1>
+    </div>
     <div class="container">
         <form action="https://www.google.com/search" method="get" class="search-form">
             <input type="text" name="q" class="search-input" placeholder="Search Google..." required autocomplete="off">
             <button type="submit" class="search-button">Search</button>
         </form>
     </div>
+    <div id="timer-widget" class="widget"></div>
     
     <script src="./js/main.js"></script>
 </body>
